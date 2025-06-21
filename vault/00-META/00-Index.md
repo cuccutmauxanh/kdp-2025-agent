@@ -28,7 +28,7 @@
 ## 🚀 Trạng thái hiện tại
 - **Ngày bắt đầu**: 21/06/2025
 - **Giai đoạn**: Đã hoàn thành nghiên cứu 8 repositories
-- **Sprint hiện tại**: Chuẩn bị Sprint 1 - Foundation
+- **Sprint hiện tại**: Sprint 1 - Nền Móng (Chuẩn bị bắt đầu)
 
 ## 📌 Quick Links
 - [[vault/00-META/01-Project-Overview|Tổng quan dự án]]
@@ -36,20 +36,25 @@
 - [[vault/00-META/03-Timeline|Timeline dự án]]
 - [[vault/00-META/04-Resources|Tài nguyên và links]]
 - [[vault/01-LEARNING/03-Insights/Research-Summary-2025-06-21|Báo cáo nghiên cứu]]
+- [[vault/02-PLANNING/Sprint-Planning-Nen-Mong|Sprint Planning - Nền Móng]]
+- [[vault/03-DEVELOPMENT/01-Current-Sprint/Progress-Tracking-Nen-Mong|Progress Tracking - Nền Móng]]
 
 ## 🎯 Mục tiêu tuần này
 - [x] ✅ Hoàn thành setup Obsidian Vault
 - [x] ✅ Tạo cầu nối Cline ↔ Obsidian
 - [x] ✅ Nghiên cứu 8 repositories
-- [ ] 🔄 Xây dựng Memory-Bank vectorstore
-- [ ] 📋 Lên kế hoạch Sprint 1
-- [ ] 🚀 Khởi động Sprint 1
+- [x] ✅ Xây dựng Memory-Bank vectorstore
+- [x] ✅ Lên kế hoạch Sprint 1 - Nền Móng
+- [ ] 🚀 Bắt đầu coding Sprint Nền Móng
+- [ ] 📋 Push toàn bộ code lên GitHub
 
 ## 📊 Metrics
-- **Notes đã tạo**: 9 (8 research + 1 summary)
+- **Notes đã tạo**: 11 (8 research + 1 summary + 1 sprint planning + 1 progress tracking)
 - **Research projects**: 8/8 ✅
-- **Code modules**: 0
-- **Tests**: 0
+- **Memory-Bank**: ✅ ChromaDB với 9 documents
+- **Sprint Planning**: ✅ Nền Móng (2 tuần)
+- **Code modules**: 0 (sẽ bắt đầu)
+- **Tests**: 0 (sẽ bắt đầu)
 
 ## 🔗 External Links
 - [GitHub Repository](https://github.com/your-username/kdp-2025-agent)
