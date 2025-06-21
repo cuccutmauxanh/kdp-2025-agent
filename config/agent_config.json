@@ -1,0 +1,80 @@
+{
+  "agent_name": "KDP-2025-Agent",
+  "version": "1.0.0",
+  "description": "AI Agent phụ tá cho dự án KDP 2025",
+  "author": "KDP Team",
+  "created_date": "2025-01-21",
+  
+  "memory": {
+    "type": "chromadb",
+    "path": "data/memory_bank",
+    "collection_name": "kdp_knowledge",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "max_results": 10
+  },
+  
+  "obsidian": {
+    "vault_path": "vault",
+    "auto_sync": true,
+    "templates_path": "vault/00-META/templates",
+    "daily_log_path": "vault/03-DEVELOPMENT/01-Current-Sprint"
+  },
+  
+  "tools": {
+    "enabled": [
+      "obsidian_writer",
+      "memory_query", 
+      "code_analyzer",
+      "git_manager",
+      "project_tracker"
+    ],
+    "obsidian_writer": {
+      "script_path": "tools/obsidian_writer.py",
+      "auto_backup": true
+    },
+    "memory_query": {
+      "script_path": "tools/memory_query.py",
+      "max_context_length": 2000
+    }
+  },
+  
+  "personality": {
+    "style": "professional",
+    "language": "vi",
+    "tone": "helpful",
+    "expertise": [
+      "software_development",
+      "project_management", 
+      "ai_agent_development",
+      "knowledge_management"
+    ]
+  },
+  
+  "development": {
+    "sprint_current": "Nền Móng",
+    "sprint_duration": "2 weeks",
+    "project_path": "core/agent",
+    "test_path": "tests",
+    "log_level": "INFO"
+  },
+  
+  "integration": {
+    "github": {
+      "repo_url": "https://github.com/cuccutmauxanh/kdp-2025-agent.git",
+      "auto_commit": true,
+      "commit_message_template": "feat: {description}"
+    },
+    "cursor": {
+      "enabled": true,
+      "auto_suggest": true,
+      "context_window": 8000
+    }
+  },
+  
+  "performance": {
+    "max_conversation_history": 50,
+    "response_timeout": 30,
+    "memory_cleanup_interval": 3600,
+    "auto_save_interval": 300
+  }
+} 

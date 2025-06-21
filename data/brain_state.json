@@ -1,0 +1,23 @@
+{
+  "conversation_history": [
+    {
+      "timestamp": "2025-06-21T18:48:22.907134",
+      "input": "Xin chào, bạn có thể giúp tôi gì?",
+      "analysis": {
+        "intent": "general_query",
+        "entities": [],
+        "sentiment": "neutral",
+        "complexity": "medium",
+        "requires_tools": false
+      },
+      "decision": {
+        "action": "respond",
+        "tools_needed": [],
+        "response_type": "text",
+        "confidence": 0.8
+      }
+    }
+  ],
+  "current_context": {},
+  "timestamp": "2025-06-21T18:48:22.908632"
+}
